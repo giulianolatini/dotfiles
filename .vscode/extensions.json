@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-ceintl.vscode-language-pack-it",
+        "ms-azuretools.vscode-docker",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "piotrpalarz.vscode-gitignore-generator",
+        "codezombiech.gitignore",
+        "ms-vscode.powershell",
+        "ziyasal.vscode-open-in-github",
+        "mdw.vscode-todo-plus-plus",
+        "blunt1337.todo-language",
+        "kukushi.pasteurl",
+        "bishopcodes.vscode-pfw",
+        "vscode-icons-team.vscode-icons",
+        "pkief.material-icon-theme",
+        "equinusocio.vsc-material-theme",
+        "sdras.night-owl",
+        "whizkydee.material-palenight-theme"
+    ]
+}

@@ -18,7 +18,7 @@ fi
 # Installing git completion
 echo ''
 echo "Now installing git and bash-completion..."
-sudo apt-get install git bash-completion -y
+brew install git && brew install bash-completion
 
 echo ''
 echo "Now configuring git-completion..."
@@ -110,7 +110,7 @@ mv ~/.vim/colors/wombat/colors/* ~/.vim/colors/
 echo ''
 echo "Now installing Midnight commander..."
 echo ''
-sudo apt-get install mc -y
+brew install mc
 
 # Speedtest-cli, pip and jq install
 echo ''
@@ -144,13 +144,13 @@ then
 	echo "Now configuring symlinks..." && $HOME/.dotfiles/script/bootstrap
     if [[ $? -eq 0 ]]
     then
-        echo "Successfully configured your environment with jldeen's dotfiles..."
+        echo "Successfully configured your environment with jldeen's macOS dotfiles..."
     else
-        echo "jldeen's dotfiles were not applied successfully..." >&2
+        echo "jldeen's macOS dotfiles were not applied successfully..." >&2
 fi
 else 
 	echo ''
-    echo "You chose not to apply jldeen's dotfiles. You will need to configure your environment manually..."
+    echo "You chose not to apply jldeen's macOS dotfiles. You will need to configure your environment manually..."
 	echo ''
 	echo "Setting defaults for .zshrc and .bashrc..."
 	echo ''
